@@ -8,7 +8,7 @@
 
 # BUT
 
-Le but de se projet est de faire un site react avec du three.js 
+Le but de se projet est de faire un site react avec du three.js sur Android
 
 --------------------------
 
