@@ -27,4 +27,5 @@ Le but de se projet est de faire un site react avec du three.js
 
 FINALISATION DU SITE THREE JS, 3D
 
+Bonus (musique)
 --------------------------
