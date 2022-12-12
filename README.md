@@ -14,7 +14,7 @@ Le but de se projet est de faire un site react avec du three.js
 
 # Pour le 19 Décembre
 
-FIGMA + PAGE ACCEUIL + PAGE DE CONNECTION + NAVIGATION + PAGE APRES CO + PEUT ETRE 3D
+FIGMA + PAGE ACCEUIL + PAGE DE CONNECTION + NAVIGATION + PAGE APRES CO + PEUT ETRE 3D+ LOADER + RETOUR UTILISATEUR SUR SES ACTIONS
 
 # Pour le 9 Janvier
 
