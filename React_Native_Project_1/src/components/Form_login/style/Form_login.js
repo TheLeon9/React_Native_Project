@@ -8,43 +8,13 @@ import styled from 'styled-components/native';
 
 export const Square = styled.View`
   width: 190px;
-  height: 260px;
+  height: 280px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 `;
 
-export const BoutonDiv = styled.View`
-  width: 190px;
-  height: 40px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-`;
-export const BoutonDivImg = styled.ImageBackground`
-  width: 90px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`;
-export const Bouton = styled.TouchableOpacity`
-  width: 90px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`;
-export const RememberMe = styled.View`
-  width: 190px;
-  height: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-`;
 export const TextInputDiv = styled.View`
   height: 40px;
   position: relative;
@@ -58,7 +28,7 @@ export const TextInputStyle = styled.TextInput`
   border-bottom-style: solid;
   border-bottom-color: ${props => props.theme.first_color};
   color: ${props => props.theme.second_color};
-  font-size: ${props => props.theme.font_size};
+  font-size: 20px;
 `;
 export const LogoTextInput = styled.Image`
   height: ${props => props.size}px;
@@ -66,4 +36,42 @@ export const LogoTextInput = styled.Image`
   position: absolute;
   top: 10%;
   left: 0;
+`;
+export const RememberMe = styled.View`
+  width: 190px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const BoutonDiv = styled.View`
+  width: 190px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+`;
+export const BoutonDivImg = styled.View`
+  width: 90px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+export const Bouton = styled.TouchableOpacity`
+  width: 90px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+export const AbsoluteButtonSquare = styled.View`
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
 `;

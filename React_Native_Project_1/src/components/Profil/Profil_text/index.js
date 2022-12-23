@@ -9,7 +9,7 @@ const Profil_Text = ({span, p}) => {
       <AroundText>
         <Span font_size={18}>{span}</Span>
       </AroundText>
-      <P font_size={12}>{p}</P>
+      <P font_size={18}>{p}</P>
     </AroundTextCont>
   );
 };

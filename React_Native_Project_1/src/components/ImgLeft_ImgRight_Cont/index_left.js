@@ -6,7 +6,7 @@ import {
   ContainerImg,
 } from './style/ImgLeft_ImgRight_Cont';
 
-import LogoSrcL from '../../../assets/img/fond_ecran_left.png';
+import LogoSrcL from '../../../assets/img/home_img/fond_ecran_left.png';
 
 const Home_page_Left = () => {
   return (

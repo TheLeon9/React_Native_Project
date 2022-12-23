@@ -1,56 +1,22 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import Title from '../Title/';
 import P from '../P/';
+import Button_Login from './Bouton_login/';
 import {
   Square,
   TextInputStyle,
   RememberMe,
-  BoutonDiv,
-  Bouton,
   TextInputDiv,
   LogoTextInput,
-  BoutonDivImg,
 } from './style/Form_login';
 import CheckBox from '@react-native-community/checkbox';
 import Lock from '../../../assets/img/login_img/lock.png';
 import User from '../../../assets/img/login_img/user.png';
-import Button_Background from '../../../assets/img/login_img/bouton_div_img.png';
-import {showMessage} from 'react-native-flash-message';
 
 const Form = ({navigation}) => {
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
-  const [toggleCheckBox, setToggleCheckBox] = useState(false);
-
-  const ConnectionFailed = mot =>
-    showMessage({
-      message: 'Wrong ' + mot,
-      description: "You don't have the good " + mot + ', please try again',
-      type: 'default',
-      backgroundColor: 'rgba(100, 0, 60, 0.80)',
-      color: 'white',
-      icon: 'danger',
-      position: 'right',
-    });
-  const Cancel = () => {
-    navigation.navigate('Home');
-  };
-  const Start = () => {
-    if (username === 'oui') {
-      if (password === 'oui') {
-        navigation.navigate('Galerie', {
-          usernameCo: username,
-          passwordCo: password,
-        });
-      } else {
-        let mot = 'Password';
-        ConnectionFailed(mot);
-      }
-    } else {
-      let mot = 'Username';
-      ConnectionFailed(mot);
-    }
-  };
+  const [username, setUsername] = useState('The_Leon');
+  const [password, setPassword] = useState('Aucune Idée');
+  const [toggleCheckBox, setToggleCheckBox] = useState(true);
   return (
     <Square>
       <Title
@@ -91,18 +57,11 @@ const Form = ({navigation}) => {
         />
         <P font_size={12}>REMEMBER ME</P>
       </RememberMe>
-      <BoutonDiv>
-        <Bouton onPress={() => Cancel()}>
-          <BoutonDivImg source={Button_Background} resizeMode="stretch">
-            <P font_size={20}>CANCEL</P>
-          </BoutonDivImg>
-        </Bouton>
-        <Bouton onPress={() => Start()}>
-          <BoutonDivImg source={Button_Background} resizeMode="stretch">
-            <P font_size={20}>START</P>
-          </BoutonDivImg>
-        </Bouton>
-      </BoutonDiv>
+      <Button_Login
+        navigation={navigation}
+        username={username}
+        password={password}
+      />
       <P font_size={12}>FORGET PASSWORD ?</P>
     </Square>
   );

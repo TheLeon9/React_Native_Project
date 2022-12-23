@@ -14,7 +14,7 @@ export const SpanText = ({children, size}) => {
     <Text
       style={{
         fontFamily: themeGlobal.first_font,
-        color: themeGlobal.first_color,
+        color: themeGlobal.second_color,
         fontSize: size,
       }}>
       {children}

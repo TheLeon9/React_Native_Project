@@ -25,10 +25,18 @@ export const GlobalLayer = styled.View`
   background-color: ${props => props.theme.background_color};
 `;
 
-export const SquareCont = styled.ImageBackground`
+export const SquareCont = styled.View`
   width: 300px;
   height: 360px;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+`;
+export const AbsoluteSquare = styled.View`
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
 `;
