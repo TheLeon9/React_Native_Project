@@ -1,8 +1,9 @@
 import styled from 'styled-components/native';
+import {Animated} from 'react-native';
 
 // -------------------------+
 //                          |
-//         Global           |
+//         Page Galerie     |
 //                          |
 // -------------------------+
 
@@ -24,9 +25,41 @@ export const GlobalLayer = styled.View`
   justify-content: center;
   background-color: ${props => props.theme.background_color};
 `;
+export const GalerieCont = styled.View`
+  width: 90%;
+  height: 90%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+`;
+export const CardCont = styled.View`
+  width: 100%;
+  height: 80%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+`;
 
-// -------------------------+
-//                          |
-//         Page Galerie     |
-//                          |
-// -------------------------+
+export const AbsoluteProfilButtonDiv = styled(Animated.View)`
+  z-index: 100;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+export const ProfilButton = styled.TouchableOpacity`
+  border-radius: 100px;
+  height: 100%;
+  width: 100%;
+`;
+export const LogoAnimate = styled(Animated.Image)`
+  height: 50px;
+  width: 50px;
+`;

@@ -5,7 +5,7 @@ import {Text} from 'react-native';
 
 // -------------------------+
 //                          |
-//         Span            |
+//          Span            |
 //                          |
 // -------------------------+
 export const SpanText = ({children, size}) => {

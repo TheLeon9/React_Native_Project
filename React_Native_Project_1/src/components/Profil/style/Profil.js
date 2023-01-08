@@ -3,6 +3,7 @@ import {useContext} from 'react';
 import {ThemeContext} from 'styled-components';
 import React from 'react';
 import {Text} from 'react-native';
+import {Animated} from 'react-native';
 
 export const Description = ({children, font_size}) => {
   const themeGlobal = useContext(ThemeContext);
@@ -23,7 +24,7 @@ export const Description = ({children, font_size}) => {
 
 // -------------------------+
 //                          |
-//         Page Profil     |
+//         Page Profil      |
 //                          |
 // -------------------------+
 
@@ -79,7 +80,50 @@ export const AbsoluteX = styled.TouchableOpacity`
   height: 52px;
   width: 52px;
 `;
+export const LogoAnimateDiv = styled(Animated.View)`
+  width: 120%;
+  height: 100px;
+  position: relative;
+`;
+export const LogoAnimate = styled(Animated.Image)`
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100px;
+  width: 100px;
+`;
 export const Logo = styled.Image`
   height: ${props => props.size}px;
   width: ${props => props.size}px;
+`;
+export const LogoutCont = styled.View`
+  margin-top: 10px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+`;
+export const LogoutContText = styled.View`
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const LogoutContAnimation = styled(Animated.View)`
+  width: 75%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+`;
+export const ActiveLogOut = styled.View`
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;

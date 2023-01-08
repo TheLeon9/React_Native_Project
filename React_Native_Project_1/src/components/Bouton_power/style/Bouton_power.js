@@ -1,4 +1,5 @@
 import styled from 'styled-components/native';
+import {Animated} from 'react-native';
 
 // -------------------------+
 //                          |
@@ -6,7 +7,7 @@ import styled from 'styled-components/native';
 //                          |
 // -------------------------+
 
-export const BoutonCercle = styled.TouchableOpacity`
+export const BoutonPowerCont = styled(Animated.View)`
   z-index: 100;
   box-sizing: border-box;
   position: absolute;
@@ -15,8 +16,16 @@ export const BoutonCercle = styled.TouchableOpacity`
   left: 50%;
   width: 140px;
   height: 140px;
-  margin-left: -70px;
+  /* margin-left: -70px; */
   margin-top: -70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+export const BoutonCercle = styled.TouchableOpacity`
+  border-radius: 100px;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;

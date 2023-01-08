@@ -1,4 +1,5 @@
 import styled from 'styled-components/native';
+import {Animated} from 'react-native';
 
 // -------------------------+
 //     Img Left and Right   |
@@ -6,7 +7,11 @@ import styled from 'styled-components/native';
 //                          |
 // -------------------------+
 
-export const ContainerImg = styled.View`
+export const ContainerImgLeft = styled(Animated.View)`
+  height: 100%;
+  width: 50%;
+`;
+export const ContainerImgRight = styled(Animated.View)`
   height: 100%;
   width: 50%;
 `;
@@ -16,14 +21,14 @@ export const ImageBackgroundDiv = styled.ImageBackground`
   width: 100%;
 `;
 
-export const ImgGaucheLayer = styled.View`
+export const ImgLeftLayer = styled.View`
   height: 100%;
   width: 100%;
   background-color: ${props => props.theme.background_color};
   display: flex;
   align-items: flex-end;
 `;
-export const ImgDroiteLayer = styled.View`
+export const ImgRightLayer = styled.View`
   height: 100%;
   width: 100%;
   background-color: ${props => props.theme.background_color};

@@ -27,7 +27,7 @@ const Button_Login = ({navigation, username, password}) => {
       position: 'right',
     });
   const Cancel = () => {
-    navigation.navigate('Home');
+    navigation.push('Login');
   };
   const Start = () => {
     if (username === newUser) {

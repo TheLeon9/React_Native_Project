@@ -5,7 +5,7 @@ import {Text} from 'react-native';
 
 // -------------------------+
 //                          |
-//         Span            |
+//           P              |
 //                          |
 // -------------------------+
 export const PText = ({children, size}) => {
