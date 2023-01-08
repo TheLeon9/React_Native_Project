@@ -16,6 +16,16 @@ import {Animated, Easing} from 'react-native';
 import Title from '../../components/Title';
 import CardComp from '../../components/Card';
 
+import videoSinge from '../../../assets/videos/singe.mp4';
+import videoCube from '../../../assets/videos/cube.mp4';
+import videoTel from '../../../assets/videos/tel.mp4';
+import videoTennis from '../../../assets/videos/tennis.mp4';
+
+import imgSinge from '../../../assets/img/galerie_page/Card/Singe.png';
+import imgCube from '../../../assets/img/galerie_page/Card/Cube.png';
+import imgTennis from '../../../assets/img/galerie_page/Card/Tennis.png';
+import imgTel from '../../../assets/img/galerie_page/Card/Tel.png';
+
 import UserCircle from '../../../assets/img/galerie_page/user-circle.png';
 const Galerie_Details = ({route, navigation}) => {
   const [profilIsOpen, profilSetIsOpen] = useState(true);
@@ -105,8 +115,35 @@ const Galerie_Details = ({route, navigation}) => {
                 font_size={40}
                 padding_bot={0}
               />
-              <CardCont>
-                <CardComp navigation={navigation} />
+              <CardCont contentContainerStyle={{alignItems: 'center'}}>
+                <CardComp
+                  navigation={navigation}
+                  TitleCard="3D Cube"
+                  CardDesc="Cube Make in 3D"
+                  video={videoCube}
+                  img={imgCube}
+                />
+                <CardComp
+                  navigation={navigation}
+                  TitleCard="Monkey"
+                  CardDesc="Monkey Make in 3D"
+                  video={videoSinge}
+                  img={imgSinge}
+                />
+                <CardComp
+                  navigation={navigation}
+                  TitleCard="Phone"
+                  CardDesc="Phone Make in 3D"
+                  video={videoTel}
+                  img={imgTel}
+                />
+                <CardComp
+                  navigation={navigation}
+                  TitleCard="Tennis Ball"
+                  CardDesc="Tennis Ball Make in 3D"
+                  video={videoTennis}
+                  img={imgTennis}
+                />
               </CardCont>
             </GalerieCont>
           ) : null}

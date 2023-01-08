@@ -22,14 +22,18 @@ export const Card = styled.View`
   justify-content: flex-start;
   position: relative;
   text-align: center;
+  margin: 10px 0px;
 `;
 export const ImageDiv = styled.View`
   width: 150px;
   height: 110px;
   margin-top: 40px;
   margin-bottom: 10px;
-  background-color: blue;
   border: solid 2px ${props => props.theme.first_color};
+`;
+export const ImgCard = styled.Image`
+  width: 100%;
+  height: 100%;
 `;
 export const SeeMoreDiv = styled.TouchableOpacity`
   width: 24px;

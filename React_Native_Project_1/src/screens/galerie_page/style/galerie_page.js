@@ -33,14 +33,9 @@ export const GalerieCont = styled.View`
   align-items: center;
   justify-content: flex-start;
 `;
-export const CardCont = styled.View`
+export const CardCont = styled.ScrollView`
   width: 100%;
-  height: 80%;
   margin-top: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
 `;
 
 export const AbsoluteProfilButtonDiv = styled(Animated.View)`
