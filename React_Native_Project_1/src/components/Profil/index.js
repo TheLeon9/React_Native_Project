@@ -33,7 +33,6 @@ const Profil = ({
   galerySetIsOpen,
   navigation,
 }) => {
-  // voir ou mettre le if pour pas que fleche aille en arrière etc..
   const pan = useRef(new Animated.ValueXY()).current;
   const panResponder = useRef(
     PanResponder.create({
