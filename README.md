@@ -52,8 +52,9 @@ Puis d'installer les dependencies :
 npm i
 ```
 
-Puis de lancer l'application et l'émulation :
-1er Terminal :
+Puis de lancer l'application et l'émulation
+
+Sur le 1er Terminal :
 ```
 npx react-native start
 ```
@@ -62,7 +63,7 @@ Vous pouvez aussi rajouter --reset-cache derrière pour éviter des erreurs
 npx react-native start --reset-cache
 ```
 
-2e Terminal :
+Sur le  2e Terminal :
 ```
  npx react-native run-android
 ```
