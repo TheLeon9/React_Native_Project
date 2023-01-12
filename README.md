@@ -1,18 +1,18 @@
-## README DES PROJETS REACT NATIVE
+## README DES PROJETS REACT NATIVE :relaxed:
 
 --------------------------
 
-# React_Native_Project_1
+# React_Native_Project_1 :wave:
 
 --------------------------
 
-## BUT
+## BUT :raised_eyebrow:
 
 Le but de se projet est de faire une **"Application mobile"** sur `Android` pour acceder à une galerie d'art d'objets réalisés en 3D via `Blender`.
 
 --------------------------
 
-### Pour le 19 Décembre 2022
+### Pour le 19 Décembre 2022 :mechanical_arm:
 
 Il y aura de disponible :
 - Un *FIGMA* pour le design de l'application 
@@ -23,13 +23,13 @@ Il y aura de disponible :
 - Un *LOADER* entre la *PAGE HOME* et *LOGIN*
 - Un *RETOUR UTILISATEUR SUR SES ACTIONS* grâce au Flash Message
 
-### Pour le 9 Janvier 2023
+### Pour le 9 Janvier 2023 :muscle:
 
 Il y aura en plus :
 - La *FINALISATION des tâches du 19 si elles sont pas finis*  
 - La *FINALISATION du SITE* avec l'ajouts des cartes et des vidéos 3D
 
-### Pour le rendu Finale du code fin Janvier 2023
+### Pour le rendu Finale du code fin Janvier 2023 :handshake:
 
 Il y aura en plus :
 - L'ajout de *Notifications push*  
@@ -38,7 +38,7 @@ Il y aura en plus :
 
 --------------------------
 
-### Pour lancer le projet
+### Pour lancer le projet :thinking:
 
 Pour lancer le projet c'est très simple :
 
@@ -53,18 +53,23 @@ npm i
 ```
 
 Puis de lancer l'application et l'émulation :
-```
 1er Terminal :
+```
 npx react-native start
+```
 Vous pouvez aussi rajouter --reset-cache derrière pour éviter des erreurs
+```
+npx react-native start --reset-cache
+```
 
 2e Terminal :
+```
  npx react-native run-android
 ```
 
 --------------------------
 
-### Pour réaliser l'application
+### Pour réaliser l'application :exploding_head:
 
 Voici les différentes technologies utilisées pour la réalisation de ce projet :
 * [FIGMA] pour les logo / img
@@ -78,7 +83,7 @@ Voici les différentes technologies utilisées pour la réalisation de ce projet
 * [react-native-community/checkbox] pour la checkbox
 * [ActivityIndicator] pour le loader
 
-### Image du FIGMA
+### Image du FIGMA :eyes:	
 
 ![This is an image](./React_Native_Project_1/assets//img/figma.PNG)
 
@@ -88,6 +93,6 @@ Voici les différentes technologies utilisées pour la réalisation de ce projet
 
 Projet réalisé par :
 
-> TheLeon9
+> TheLeon9 :sunglasses:
 
 Merci :smiley: !
