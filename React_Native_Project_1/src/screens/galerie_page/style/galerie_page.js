@@ -17,6 +17,41 @@ export const GlobalImg = styled.ImageBackground`
   height: 100%;
 `;
 
+export const ModalView = styled.View`
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: ${props => props.theme.background_black_color};
+`;
+export const ModalImage = styled.ImageBackground`
+  width: 360px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+`;
+export const BoutonCercle = styled.TouchableOpacity`
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px ${props => props.theme.first_color};
+`;
+export const LogoClose = styled.Image`
+  height: ${props => props.size}px;
+  width: ${props => props.size}px;
+`;
 export const GlobalLayer = styled.View`
   width: 100%;
   height: 100%;

@@ -32,7 +32,7 @@ Il y aura en plus :
 ### Pour le rendu Finale du code fin Janvier 2023 :handshake:
 
 Il y aura en plus :
-- Une fausse POPUP de PUB
+- Une fausse POP-UP de PUB
 - Un *meilleur Readme*
 - Un *Code propre*
 
@@ -83,6 +83,7 @@ Voici les différentes technologies utilisées pour la réalisation de ce projet
 * [react-native-flash-message] pour les flash-message
 * [react-native-community/checkbox] pour la checkbox
 * [ActivityIndicator] pour le loader
+* [Modal] pour la fausse Pub
 
 ### Image du FIGMA :eyes:	
 

@@ -4,6 +4,7 @@ const theme = {
   first_color: 'deepskyblue',
   second_color: 'lightskyblue',
   background_color: 'rgba(0, 0, 60, 0.80)',
+  background_black_color: 'rgba(0, 0, 0, 0.80)',
   first_font: 'Transformers Movie',
   font_size_title: 28,
   font_size_large: 24,
