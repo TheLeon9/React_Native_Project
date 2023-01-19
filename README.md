@@ -32,7 +32,7 @@ Il y aura en plus :
 ### Pour le rendu Finale du code fin Janvier 2023 :handshake:
 
 Il y aura en plus :
-- L'ajout de *Notifications push*  
+- Une fausse POPUP de PUB
 - Un *meilleur Readme*
 - Un *Code propre*
 
